@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PVFegHSchPE1CqMZ0sNViL9bUKmQ30ip0GFi5kidcXqzwuGKHpK8TRiNozDbjneTy1txVvwSlc6VZI+ayy2xgQ==",
+  "dgSpecHash": "qE37vGIYAoqZjHYxVwQq+SQgFDK49uEtlGHKGkx6i2Pd5cqj+k/LqAeFTd0LbydSRvF8y/No+zeiaF+Qi2R2dg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\fathe\\Documents\\GitHub\\InTheCatsPaws\\InTheCatsPaws\\InTheCatsPaws\\InTheCatsPaws.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Users\\fathe\\Documents\\GitHub\\InTheCatsPawsSite\\InTheCatsPaws\\InTheCatsPaws.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fathe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
   "logs": []
 }

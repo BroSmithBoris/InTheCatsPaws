@@ -1,11 +1,15 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "In The Cat's Paws";
 }
 
 <div id="block-1" class="text-center block">
     <div class="content">
         <p class="display-3">In the cat's paws</p>
-        <input id="play-button" type="image" src="../images/PlayButton.svg" alt="Play button">
+        <input id="play-button" 
+            type="image" 
+            src="../images/PlayButton.svg" 
+            alt="Play button"  
+            onclick="openGamePage()">
         <p class="display-5">жмякни меня!</p>
     </div>
 </div>
@@ -60,7 +64,7 @@
     </div>
     <div class="col">
         <div class="description">
-            <h1>Кото-Бомбой</h1>
+            <h1>Кото-Тыком</h1>
             <ul>
                 <li>Может нажимать на кнопки в комнате</li>
                 <li>При нажатии на кнопку Кот-Учёный тратит ход</li>
@@ -80,8 +84,8 @@
         <img style="width: 60%" src="../images/Team.svg" alt="Team">
         <p class="display-2">Glow Globe</p>
         <p class="display-4 description" style="border-bottom: inset;">
-            Мы молодая команда инди-разработчиков, начавшая свой путь в 2019 году с проекта The Old Saline. Эта игра о врачующем алхимике Клим Покровских, она путеществует по дальним казалось бы заброшеным челевечеством местам и лечет пострадавших от эпидемии людей. Так же мы принимали участие в Mix and Game Jam 2020 года, на ней мы представили игру Fiddler's Green про пиратов бороздящих призрачные моря. 
-            
+            Мы молодая команда инди-разработчиков, начавшая свой путь в 2019 году с проекта The Old Saline. Эта игра о врачующем алхимике Клим Покровских, она путеществует по дальним казалось бы заброшеным челевечеством местам и лечет пострадавших от эпидемии людей. Так же мы принимали участие в Mix and Game Jam 2020 года, на ней мы представили игру Fiddler's Green про пиратов бороздящих призрачные моря.
+
             Все выпущенные нами игры отличаются богатым лором и оригинальной проработкой персонажей и игровых механик.
         </p>
     </div>
@@ -90,3 +94,4 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>

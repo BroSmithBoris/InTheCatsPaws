@@ -138,6 +138,33 @@ function createUnityInstance(canvas, config, onProgress) {
       Module.onQuit();
     };
 
+  // Safari does not automatically stretch the fullscreen element to fill the screen.
+  // The CSS width/height of the canvas causes it to remain the same size in the full screen
+  // window on Safari, resulting in it being a small canvas with black borders filling the
+  // rest of the screen.
+  var _savedElementWidth = "";
+  var _savedElementHeight = "";
+  // Safari uses webkitfullscreenchange event and not fullscreenchange
+  document.addEventListener("webkitfullscreenchange", function(e) {
+    // Safari uses webkitCurrentFullScreenElement and not fullscreenElement.
+    var fullscreenElement = document.webkitCurrentFullScreenElement;
+    if (fullscreenElement === canvas) {
+      if (canvas.style.width) {
+        _savedElementWidth = canvas.style.width;
+        _savedElementHeight = canvas.style.height;
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+      }
+    } else {
+      if (_savedElementWidth) {
+        canvas.style.width = _savedElementWidth;
+        canvas.style.height = _savedElementHeight;
+        _savedElementWidth = "";
+        _savedElementHeight = "";
+      }
+    }
+  });
+
   var unityInstance = {
     Module: Module,
     SetFullscreen: function () {

@@ -1,0 +1,8 @@
+D:\Users\fathe\Documents\GitHub\InTheCatsPawsSite\InTheCatsPaws\bin\Release\net6.0\publish\InTheCatsPaws.exe
+D:\Users\fathe\Documents\GitHub\InTheCatsPawsSite\InTheCatsPaws\bin\Release\net6.0\publish\Web.config
+D:\Users\fathe\Documents\GitHub\InTheCatsPawsSite\InTheCatsPaws\bin\Release\net6.0\publish\appsettings.Development.json
+D:\Users\fathe\Documents\GitHub\InTheCatsPawsSite\InTheCatsPaws\bin\Release\net6.0\publish\appsettings.json
+D:\Users\fathe\Documents\GitHub\InTheCatsPawsSite\InTheCatsPaws\bin\Release\net6.0\publish\InTheCatsPaws.dll
+D:\Users\fathe\Documents\GitHub\InTheCatsPawsSite\InTheCatsPaws\bin\Release\net6.0\publish\InTheCatsPaws.deps.json
+D:\Users\fathe\Documents\GitHub\InTheCatsPawsSite\InTheCatsPaws\bin\Release\net6.0\publish\InTheCatsPaws.runtimeconfig.json
+D:\Users\fathe\Documents\GitHub\InTheCatsPawsSite\InTheCatsPaws\bin\Release\net6.0\publish\InTheCatsPaws.pdb

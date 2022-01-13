@@ -66,6 +66,7 @@ h1 {
 
 .row {
   padding: 2rem 0;
+  --bs-gutter-x: 0rem;
 }
 
 .col img {
@@ -91,4 +92,5 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1 0 330px !important;
 }

@@ -1,0 +1,96 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: 'Inter', sans-serif;
+  background-color: #3D3D3D;
+}
+
+section {
+  position: relative;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#block-1 {
+  background: url("../images/PlayBackground.svg") center no-repeat;
+  background-size: cover;
+  height: 70vmax;
+}
+
+#block-2 p {
+  padding: 2.5rem;
+}
+
+p {
+  font-weight: 900 !important;
+  font-style: normal;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  
+}
+
+#play-button {
+  width: 30%;
+}
+
+.gradient {
+  background: linear-gradient(91.29deg, #6A11CB 0%, #2575FC 100%);
+  border-radius: 10px;
+}
+
+.gradient p {
+  padding: 10px 20px;
+}
+
+.row {
+  padding: 2rem 0;
+  --bs-gutter-x: 0rem;
+}
+
+.col img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  font-weight: 200;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: x-large;
+  padding: 0 25px;
+}
+
+.description h1 {
+  border-bottom: 1px solid;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 330px !important;
+}
